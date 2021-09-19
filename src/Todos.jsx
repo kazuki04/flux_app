@@ -1,19 +1,16 @@
 import React from "react";
 
-export default class Todo extends React.Component {
-  constructor(){
+export default class Todos extends React.Component {
 
-  }
-
-
-
-  return() {
-    <div>
-      <ul>
-        <li>test1</li>
-        <li>test2</li>
-        <li>test3</li>
-      </ul>
-    </div>
+  render() {
+    return(
+      <div>
+        <ul>
+          <li>test1</li>
+          <li>test2</li>
+          <li>test3</li>
+        </ul>
+      </div>
+    )
   }
 }
